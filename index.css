@@ -1,0 +1,113 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+.header{
+      background-color:rgb(108, 110, 9);
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 10px;     
+      position: relative;
+      right: 12px; 
+      width: 100%;
+}
+
+.Queen{
+      /* background-color: rosybrown; */
+      width: 90px;
+      position: relative;
+      right: 100px;
+      color: white;
+      font-weight: bold;
+}
+
+.nav{
+      /* background-color: salmon; */
+      position: relative;
+      left: 130px;
+      /* width: 600px; */
+      display: flex;
+      justify-content: space-around;
+      
+}
+
+.nav ul li {
+      list-style: none;
+      /* background-color: rgb(71, 46, 139); */
+      margin: 4px;
+      display: inline-block;
+      padding:10px;
+     
+      
+}
+
+.nav ul li a{
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: 800px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+     text-align: center;
+     position: relative;
+     top: 10px;
+     /* text-decoration: underline; */
+     font-size: 40px;
+     color: white;
+      
+}
+
+img{
+     width: 300px;
+     height: 250px;
+     position: relative;
+     top: -1px;
+     float: left;
+     margin-right: 15px;
+     margin-bottom: 15px;
+}
+
+p{
+     margin-bottom: 10px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: white;
+     text-align: justify;
+}
+
+.container2{
+      /* border: 2px solid red; */
+      height: 100vh;
+      width: 100%;
+      background-color: rgb(38, 13, 175);
+}
+.container3{
+      /* border: 2px solid gray; */
+      height: 90vh;
+      margin: 0px 237px;
+}
+.container4{
+      /* border: 2px solid red; */
+      position: relative;
+      top: 90px;
+      height: 67vh;
+      /* background-color: khaki; */
+}
+
+.nav ul li a:hover{
+      color: rgb(193, 236, 93);
+      
+   
+      /* transition-delay: 0.2s; */
+}
+.nav ul li:hover{
+      border-radius: 10px;
+      /* background-color: rgb(235, 151, 91); */
+      /* transition-delay: 0.2s; */
+}
+hr{
+      height: 1px;
+      background-color: white;
+}
